@@ -12,7 +12,7 @@ load_dotenv()
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_ENV = os.getenv("PINECONE_ENVIRONMENT")  # opcional según tu config
 
-# Inicializar Pinecone (nueva versión)
+# Inicializar Pinecone
 pc = Pinecone(api_key=PINECONE_API_KEY, environment=PINECONE_ENV)
 index_name = "animales-rag"
 
@@ -66,4 +66,4 @@ vecstore.add_texts(
     ids=ids
 )
 
-print("✅ Datos subidos correctamente a Pinecone desde JSONL")
+print("Datos subidos correctamente a Pinecone desde JSONL")
