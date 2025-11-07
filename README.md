@@ -21,12 +21,14 @@ Antes de comenzar, asegúrate de tener instalado:
 ## 🔧 Instalación
 
 1. Clona el repositorio:
+
    ```bash
    git clone https://github.com/tu-usuario/arep-taller8-RAG.git
    cd arep-taller8-RAG
    ```
 
 2. Crea y activa un entorno virtual (recomendado):
+
    ```bash
    python -m venv venv
    # En Windows:
@@ -36,6 +38,7 @@ Antes de comenzar, asegúrate de tener instalado:
    ```
 
 3. Instala las dependencias:
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -77,12 +80,13 @@ Una vez iniciado, podrás hacer preguntas sobre animales y el sistema buscará e
 - `requirements.txt`: Dependencias del proyecto
 - `.env`: Archivo para variables de entorno (no incluido en el repositorio)
 
+## Evidencia
+
+![alt text](<img/Captura de pantalla 2025-11-06 211258.png>)
+![alt text](<img/Captura de pantalla 2025-11-07 135339.png>)
+
 ## 📝 Notas adicionales
 
 - Asegúrate de que tu archivo `animales.jsonl` tenga el formato correcto con los campos necesarios.
 - El sistema está configurado para usar el modelo `gpt-4o-mini` de OpenAI y `text-embedding-3-small` para los embeddings.
 - Puedes ajustar los parámetros de búsqueda en `rag.py` según tus necesidades.
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
