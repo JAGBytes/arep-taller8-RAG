@@ -1,0 +1,48 @@
+# -------------------------
+# Entornos virtuales
+# -------------------------
+venv/
+ENV/
+env/
+
+# -------------------------
+# Archivos de entorno
+# -------------------------
+.env
+*.env
+
+# -------------------------
+# Archivos compilados de Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -------------------------
+# Distribución / packaging
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+# Configuraciones de IDEs
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -------------------------
+# Archivos de sistema
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Logs y bases de datos locales
+# -------------------------
+*.log
+*.sqlite3
